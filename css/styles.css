@@ -1,0 +1,234 @@
+body, html{
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: "Lato", serif;
+	text-align: center;
+}
+
+.content{
+	font-size: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.col{
+	overflow: auto;
+	vertical-align: top;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+.left{
+	background-color: white;
+}
+
+.right{
+	background-image: url("../office.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.progress{
+	background-color: rgba(50,65,78,0.51);
+	height: 100%;
+	overflow: auto;
+}
+
+.progress-row{
+	height: 37px;
+	margin: 0 auto;
+	margin-top: 220px;
+	width: 90%;
+}
+
+.progress-circle{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-radius : 50%;
+	background-color: white;
+	font-size: 17px;
+	color: black;
+	margin-left : 11%;
+	text-align: center;
+	padding: 7px 5px 3px 5px; 
+	font-style: "Lato" serif;
+	font-weight: 300;
+}
+
+.circle-highlight{
+	background-color: transparent;
+	color: white;
+	border: solid 1px white;
+}
+
+.heading-skin{
+	font-family: "Lato", serif;
+	font-weight: 700; 
+	font-size: 40px;
+	color: black;
+	opacity: 1;
+}
+
+.heading{
+	margin-top: 75px;
+	text-align: center;
+}
+
+.progress-heading{
+	font-size: 30px;
+	text-align: center;
+	color: white; 
+}
+
+.instruction-skin{
+	font-family: "Lato", serif;
+	font-weight: 300; 
+	font-size: 26px;
+}
+
+.instructions{
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	width: 70%;
+}
+
+.a-skin{
+	transition : background-color 0.2s ease;
+	text-decoration: none;
+	color: black;
+	font-family: "Lato", serif;
+	font-weight: 300;
+	font-size : 35px;
+	border: solid red 4px;
+}
+
+.a-skin:hover{
+	background-color: rgb(240,240,240);
+}
+
+.a-content{
+	display: block;
+	margin: 0 auto;
+	padding: 3px;
+	padding-bottom: 8px;
+	text-align: center;
+	margin-top: 75px;
+	width: 60%;
+}
+
+.input-skin{
+	color: black;
+	font-family: "Lato", serif;
+	font-weight: 300;
+	font-size : 25px;
+	border: solid red 2px;
+}
+
+.input-content{
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 3px 10px 10px 8px;
+	text-align: center;
+	width: 70%;
+}
+
+.invite{
+	margin-top: 10px;
+}
+
+.invite:first-of-type{
+	margin-top: 20px;
+}
+
+.pricing-container{
+	position: relative;
+	height: 250px;
+	max-width: 560px;
+	margin: 0 auto;
+}
+
+.pricing {
+	position: absolute;
+	vertical-align: top;
+	display: inline-block;
+	width : 140px;
+	height :225px;
+	margin: 20px 0 0 0;
+}
+
+
+.pricing:after{
+	text-align: left;
+	bottom : 0;
+	position: absolute;
+	content: "";
+	height: 20px;
+	width: 100%;
+	background-color: red;
+}
+
+.pricing:first-of-type{
+	left : 40px;
+}
+
+.pricing:nth-child(2){
+	margin: 20px auto;
+	left : 0;
+	right: 0;	
+}
+
+.pricing:last-of-type{
+	right : 40px;
+}
+
+.num-employees{
+	text-align: center;
+}
+
+.pricing-text{
+	display: block;
+	margin-top: 30px;
+	font-size: 50px;
+	text-align: center;
+	color: rgba(50,65,78,0.51);
+}
+
+.skip{
+	display: block;
+	width: 300px;
+	font-size: 20px;
+	font-family: "Lato", serif;
+	margin: 30px auto;
+}
+
+.btn-alt{
+	color: white;
+	padding: 5px 5px 10px 5px;
+	width : 70%;
+	display: block;
+	font-size: 30px;
+	background-color: red;
+	margin: 50px auto;
+}
+
+
+
+
+@media all and (max-width:1110px){
+
+	body{
+		width : 1110px;
+	}
+
+}
+
+
